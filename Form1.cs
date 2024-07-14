@@ -22,7 +22,7 @@ namespace kolko_i_krzyzyk
         private void Restart()
         {
             move = 0;
-            Button[] all = new Button[9];   // tablica 9 przycisków
+            Button[] all = new Button[9];   // tablica 9 przyciskÃ³w
 
             /*
             all[0] = btn1;
@@ -70,6 +70,14 @@ namespace kolko_i_krzyzyk
                 Win();
             }
             else if (btn3.Text != "" && btn3.Text == btn6.Text && btn6.Text == btn9.Text)
+            {
+                Win();
+            }
+            else if (btn1.Text != "" && btn1.Text == btn5.Text && btn5.Text == btn9.Text)
+            {
+                Win();
+            }
+            else if (btn3.Text != "" && btn3.Text == btn5.Text && btn5.Text == btn7.Text)
             {
                 Win();
             }
