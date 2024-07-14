@@ -16,4 +16,4 @@ Projekt to prosta gra w Kółko i Krzyżyk stworzona w Windows Forms. Gra umożl
 
 ### Symulacja rozgrywki
 
-![](.\tic_tac_toe_recording.gif)
+![](tic_tac_toe_recording.gif)
